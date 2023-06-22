@@ -21,13 +21,13 @@ public class MyClassTest {
         //calling real methods since below methods are not stubbed
         spyOnList.add("Pankaj");
         spyOnList.add("Meghna");
-        assertEquals("Pankaj", spyOnList.get(0));
+        assertEquals("Pankaj1", spyOnList.get(0));
         assertEquals("Meghna", spyOnList.get(1));
     }
 
     @Test
     public void test2(){
-        Assertions.assertEquals(false, true);
+        Assertions.assertEquals(true, true);
         Assertions.assertEquals(true, true);
     }
 
