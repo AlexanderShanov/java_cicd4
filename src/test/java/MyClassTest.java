@@ -22,7 +22,9 @@ public class MyClassTest {
         spyOnList.add("Pankaj");
         spyOnList.add("Meghna");
         assertEquals("Pankaj1", spyOnList.get(0));
+
         assertEquals("Meghna", spyOnList.get(1));
+        Assertions.assertEquals(true, true);
     }
 
     @Test
