@@ -31,5 +31,8 @@ jobs:
       run: mvn -B package --file pom.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
-    - name: Update dependency graph
+    - name: Start test
       run: mvn -B test --file pom.xml
+
+      #- name: Start test2
+      #run: mvn -B test2 --file pom.xml
