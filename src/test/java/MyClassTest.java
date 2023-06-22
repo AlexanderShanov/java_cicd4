@@ -24,7 +24,7 @@ public class MyClassTest {
         assertEquals("Pankaj1", spyOnList.get(0));
 
         assertEquals("Meghna", spyOnList.get(1));
-        Assertions.assertEquals(true, true);
+        Assertions.assertEquals(false, true);
     }
 
     @Test
