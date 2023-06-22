@@ -21,9 +21,9 @@ public class MyClassTest {
         //calling real methods since below methods are not stubbed
         spyOnList.add("Pankaj");
         spyOnList.add("Meghna");
-        Assertions.assertEquals("Pankaj1", spyOnList.get(0));
+        Assertions.assertEquals("Pankaj", spyOnList.get(0));
 
-        Assertions.assertEquals("Meghna11", spyOnList.get(1));
+        Assertions.assertEquals("Meghna", spyOnList.get(1));
         //Assertions.assertEquals(false, true);
     }
 
