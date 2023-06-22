@@ -10,7 +10,7 @@ import static org.mockito.Mockito.when;
 
 public class MyClassTest {
 
-   /* @Test
+   @Test
     public void test() {
         List<String> list = new ArrayList<>();
         List<String> spyOnList = spy(list);
@@ -23,10 +23,10 @@ public class MyClassTest {
         spyOnList.add("Meghna");
         assertEquals("Pankaj", spyOnList.get(0));
         assertEquals("Meghna", spyOnList.get(1));
-    }*/
+    }
 
     @Test
-    public void test(){
+    public void test2(){
         Assertions.assertEquals(true, true);
         Assertions.assertEquals(true, true);
     }
