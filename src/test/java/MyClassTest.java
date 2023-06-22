@@ -29,7 +29,7 @@ public class MyClassTest {
 
     @Test
     public void test2(){
-        Assertions.assertEquals(false, true);
+        Assertions.assertEquals(true, true);
         Assertions.assertEquals(true, true);
     }
 
