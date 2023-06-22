@@ -29,13 +29,13 @@ public class MyClassTest {
 
     @Test
     public void test2(){
-        Assertions.assertEquals(true, true);
+        Assertions.assertEquals(false, true);
         Assertions.assertEquals(true, true);
     }
 
     @Test
     public void test3(){
-        Assertions.assertEquals(false, true);
+        Assertions.assertEquals(true, true);
         Assertions.assertEquals(true, true);
     }
 
